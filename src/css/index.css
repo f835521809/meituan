@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.wrap {
+  width: 100%;
+  height: 100%; }
+  .wrap .header {
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    background: #06c1ae;
+    border-bottom: 1px solid #21897d;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px; }
+    .wrap .header input {
+      margin-top: 5px;
+      width: 70%;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid red;
+      text-align: center; }
+  .wrap .main {
+    width: 100%;
+    height: 100%; }
+    .wrap .main .banner img {
+      width: 100%;
+      height: 100%; }
